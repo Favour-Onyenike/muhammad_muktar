@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background-size: cover;
+    height: 100vh;
+    background-image: url("beds-medical-equipment-stand-out-with-soothing-blue-tones-hospital-room.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 900px;
+    background: rgba(20, 21, 21, 0.65);
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.wrapper .title h1{
+    color: #c5ecfd;
+    text-align: center;
+}
+
+.contact-form{
+    display: flex;
+}
+
+.input-fields{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+
+}
+
+.input-fields,
+.msg{
+    width: 55%;
+}
+
+.input-fields .input,
+.msg textarea{
+    margin: 10px 0;
+    background: transparent;
+    border: 0px;
+    border-bottom: 2px solid #1decec;
+    padding: 10px;
+    color: #151414;
+    width: 100%;
+}
+
+.msg textarea{
+    height: 212px;
+}
+
+
+.btn {
+    background: #39b7dd;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px){
+    .contact-form{
+        flex-direction: column;
+    }
+    .msg textarea{
+        height: 80px;
+    }
+    .input-fields,
+    .msg{
+        width: 100%;
+    }
+}
+a:hover{
+    color: khaki;
+    text-decoration:underline;
+}
+a:active{
+    color: darkcyan;
+}
+a {
+
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color:black;
+    background-color: rgba(57, 183, 221, 0.37);
+
+}
+.checkbox-container {
+    margin-top: 10px;
+}
+
+.checkbox-container label {
+    display: inline-block;
+    margin-right: 10px;
+}

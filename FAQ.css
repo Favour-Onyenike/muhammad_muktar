@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("african-american-therapist-doctor-explaining-radiography-expertise-sick-woman-discussing-healthcare-treatment-medical-appointment-hospital-ward-patient-with-neck-cervical-collar.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Microsoft Tai Le";
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.faq-item {
+    margin-bottom: 10px;
+}
+
+.faq-question {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #b6a9a9;
+    border-radius: 5px;
+}
+
+.faq-answer {
+    padding: 10px 20px;
+    display: none;
+}
+
+.faq-item.active .faq-answer {
+    display: block;
+}
+
+
+a:hover{
+    color: khaki;
+    text-decoration:underline;
+}
+a:active{
+    color: darkcyan;
+}
+a {
+    background-color: whitesmoke;
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    background-color: rgba(35, 14, 14, 0.47);
+
+}

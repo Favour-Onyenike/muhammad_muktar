@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="form.js"></script>
+</head>
+<body>
+    <div class=" container">
+        <form action="#" method="post" enctype="multipart/form-data">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+          
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" checked>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+          
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+              <option value="">Select Country</option>
+              <option value="usa">Lagos</option>
+              <option value="uk">Abuja</option>
+              <option value="canada">Delta</option>
+              <option value="canada">Kaduna</option>
+            </select>
+          
+            <label for="avatar">Avatar:</label>
+            <input type="file" id="avatar" name="avatar">
+          
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <label for="subscribe">Subscribe to my channel</label><br>
+          
+            <button type="submit">Submit</button>
+          </form>
+    </div>
+</body>
+</html>

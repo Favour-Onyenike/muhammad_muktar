@@ -1,0 +1,48 @@
+body{
+    background-image: url("doctor-from-future-concept.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Microsoft Tai Le";
+
+}
+
+a:hover{
+    color: khaki;
+    text-decoration:underline;
+}
+a:active{
+    color: darkcyan;
+}
+a {
+    color: #f8f3f3;
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+
+}
+.category span{color: #f5efef;
+    padding: 30px;
+
+}
+
+.surgery-price{
+    font-family: "Book Antiqua";
+    font-size: large;
+}
+.surgery-name{
+    font-size: larger;
+    font-family: "Yu Gothic";
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+
+}
+li:hover {
+    background-color: #0e4ed2;
+    transition: background-color 0.5s ease;
+}
